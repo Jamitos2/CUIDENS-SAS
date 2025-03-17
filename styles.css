@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 1;;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+.nav-wrapper {
+    background-color: #2E7D32 !important; /* Verde oscuro */
+}
+
+/* Estilos del contenido */
+.container {
+    margin-top: 20px;
+    text-align: center;
+    }
+
+/* Botón de servicios */
+.btn {
+    background-color: #0288d1; /* Azul oscuro */
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+/* Estilos para el pie de página */
+.page-footer {
+    background-color: #2E7D32 !important; /* Verde oscuro */
+    padding: 20px 0;
+}
+
+.page-footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page-footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.page-footer p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.page-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.page-footer ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.page-footer ul li a:hover {
+    color: white;
+}
+
+nav .brand-logo {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font: size 1.8rem;
+}
+
+nav ul {
+    margin-left: 10px; /* Asegura que el menú no quede pegado a la izquierda */
+}
+  
+    nav ul {
+        display: flex;
+        justify-content: left;
+    }
+
+.card-content {
+        min-height: 150px;
+}

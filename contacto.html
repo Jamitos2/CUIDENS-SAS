@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Cuiden</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="center-align">
+        <img src="imagenes/cuiden.JPG" alt="Logo de Cuiden" width="200">
+    </header>
+
+    <nav>
+        <div class="nav-wrapper green darken-3">
+            <div class="container">
+                <a href="#" class="brand-logo center">CUIDEN SAS</a>
+                <ul id="nav-mobile" class="left">
+                    <li><a href="index_cuiden5.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="content">
+        <h2 class="center-align">Contacto</h2>
+
+        <!-- Marco cuadrado -->
+        <div class="card-panel white z-depth-3">
+            <form class="container">
+                <div class="input-field">
+                     <label for="nombre">Nombre:</label>
+                     <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="input-field">
+                     <label for="apellidos">Apellidos:</label>
+                     <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" class="materialize-textarea" required></textarea>
+                </div>
+
+                <div class="center-align">
+                    <button type="submit" class="btn green darken-3">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
